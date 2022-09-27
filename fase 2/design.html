@@ -1,22 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> Diseño y Construccion
-    
+
+<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fase 2- diseño y construccion</title>
 </head>
+
 <body>
-<nav>
-<ul>
-    <li><a href="#">Inicio</a> </li> 
-     <li><a href="#">Temas</a></li>
-     <li><a href="#">Recursos Digitales</a></li> 
-     <li><a href="#">Aprendizaje</a></li>
-     <li><a href="#">Acerca de </a></li>
-</ul>
-</nav>
-    
+    <header>
+        <h1>HTML basico: etiquetas básicas de html,
+            atributos y valores</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a> </li>
+            <li><a href="#">Temas
+                    <ul>
+                        <li>tema 1</li>
+                        <li>tema 2</li>
+                    </ul>
+                </a>
+            </li>
+            <li><a href="#">Recursos Digitales
+                    <ul>
+                        <li>recurso 1</li>
+                        <li>recurso 2 </li>
+                    </ul>
+                </a>
+            </li>
+            <li><a href="#">Aprendizaje
+                    <ul>
+                        <li>actividad 1</li>
+                        <li>actividad 2</li>
+                    </ul>
+                </a></li>
+            <li><a href="#">Acerca de
+                    <ul>
+                        <li>autor</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Proposito del Sitio</h1>
+        Estudiar y aplicar las etiquetas basicas de HTML,
+        atributos y valores
+        para el diseño de sitios web, usando un editor de codigo en este caso (visual estudio code)
+        <article>
+            <hr>
+            <h4>INTRODUCCIÓN E HISTORIA DE HTML</h4>
+
+            <img src="img/html 5.png" alt=" logo de html ">
+
+            <p> segun (Celaya Luna,2014, p.3).  HTML5 es la versión 5 de HTML, que corresponde a las siglas en inglés de
+                HiperText Markup Language o Lenguaje de Marcas de Hipertexto. HTML es un lenguaje de programación que
+                utiliza una serie de códigos llamados etiquetas que van definiendo los elementos que componen una página
+                web: texto, imágenes, etc. Esas etiquetas serán interpretadas por un programa navegador de internet
+                (como por ejemplo Internet Explorer) que mostrará adecuadamente la página web al usuario. <br>
+
+                <hr>
+
+            <h4>EL CÓDIGO HTML</h4>
+
+            El lenguaje HTML, como ya se ha comentado, es un lenguaje de marcas o etiquetas.
+            Esto quiere decir que los elementos que conforman la página web se describen mediante palabras
+            especiales que marcan el inicio y el final de los mismos, estas palabras se denominan etiquetas. <br>
+
+            Aunque existen algunas excepciones, en general las etiquetas se indican por pares de la siguiente forma.
+            <br>
+           <b> Etiqueta de apertura:</b>  carácter <, seguido del nombre de la etiqueta (sin espacios en blanco) y terminado con
+                el carácter >. <br>
+               <b>Etiqueta de cierre: carácter</b>  carácter <, seguido del carácter /, seguido del nombre de la etiqueta (sin espacios
+                    en blanco) y terminado con el carácter >. <br>
+                    <hr>
+                    <h4>Estructura de un Documento HTML</h4>
+
+
+                    <p> Todas las páginas HTML contienen los mismos elementos básicos: <br>
+
+                       <b> Doctype:</b>  Es la primera línea de código que tiene que estar en cualquier documento HTML. Esta
+                        línea indica al navegador qué especificación de HTML se está utilizando. Suele ser la siguiente:<br>
+
+                       <b> HTML:</b> El par de etiquetas < html > y < / html> se encuentran al principio y al final de todo documento HTML y sirve para indicar a
+                        todos las aplicaciones que pueden analizar texto sin formato (no sólamente a los navegadores)
+                        que esa página utiliza HTML. <br>
+
+
+
+                       <b> Head: </b>  Las etiquetas< head > y < / head > delimitan el contenido de la cabecera del documento, es decir, el título de la
+                        página y una información que no aparece en la pantalla. <br>
+
+                       <b>Title:</b>  El par de etiquetas < title > y < / title > rodea el texto del título. El título aparece en la barra de título del navegador web
+                        cuando presenta la página. Normalmente va dentro del elemento head <br>
+
+                        <b> Meta: </b>  < meta > y < / meta> permite aportar metainformación al documento, para su mejor identificación e
+                            indexación por los motores de búsqueda. <br>
+
+                          <b>Body:</b> Las etiquetas < body > y < / body> rodean el contenido visible de la página. También puede llevar incluida información sobre las propiedades de la página, por ejemplo < body bgcolor="#RRGGBB"> define el color de fondo de la página.
+                               
+
+
+                            <h4>Etiquetas HTML más Comunes</h4>
+
+                            <img src="img/etiquetas html.webp" alt=" "> <br>
+
+
+                             <b>Comentarios: </b> < !--comentarios-->: Para escribir anotaciones que sirven para ayudar a la comprensión del código. Lo que se escribe dentro de esta etiqueta es ignorado por el navegador y no se muestra en la página.
+
+                              <h4><b>Formato de Textos</b></h4>
+
+                            <B>< b>...< / b> :</B> Aplica negrita al texto incluido entre las etiquetas (es equivalente usar < strong>… < / strong>) <br>
+
+                             <b>< i>...< /i >:</b> Aplica cursiva al texto incluido entre las etiquetas (es equivalente usar < em >…< / em >) <br>
+
+                            <b>< u > < / u >: </b>  Aplica subrayado <br>
+
+                            <b> < font>...< / font >: </b>  Delimita un texto con un formato de fuente determinado definido por sus propiedades: <br>
+                             
+                            <b>< font size=”X”>… < /font >:</b> Indica el tamaño del texto. <br>
+
+                           <b> < font  color = ” #RRGGBB ”>… </font >: </b>  Define el color del texto, donde cada letra RRGGBB es un valor hexadecimal (de 0 a F) que indica el color. <br>
+
+                            <b>< font face=”arial”>… < / font > :</b>  Determina el tipo de fuente de texto, es decir, la tipografía. <br>
+
+                             La etiqueta  <b> < font></font></b> puede incluir los tres parámetros (tamaño, fuente y color): < font size=X color=#XXYYZZ face=fuente escogida > …… <  / font > <br>
+
+                             <b>h1, h2, h3, h4, h5, h6:</b> Indican 6 niveles de formato de encabezados, en los que < h1 >...< / h1 > delimitaría el tipo de fuente de mayor tamaño.
+                            (Celaya Luna,2014.p.13)
+
+                    </p>
+
+
+        </article>
+        <h3> <b>mockup</b></h3>
+        <img src="img/mockup img.png" alt="">
+        
+
+    </section>
+    <hr>
+    <footer>
+        <p> <b>Skype</b> live:.cid.f9e95e44edbfd900 <br>
+        <b>Email:</b> luis037carlos@gmail.com <br>
+        <b>Fecha de actualizacion:</b> septiembre 2022<br>
+        </p>
+    </footer>
+
 </body>
+
 </html>
