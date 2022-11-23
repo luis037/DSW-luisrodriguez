@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tema 2 </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1>HTML basico: etiquetas básicas de html,
+            atributos y valores</h1>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page" href="index.html"> <b> Index</b></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> <b>Aprendizaje</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="actividad 1.html">actividad 1</a></li>
+                            <li><a class="dropdown-item" href="actividad 2.html">actividad 2</a></li>
+
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> <b>Temas</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tema 1.html">tema 1</a></li>
+                            <li><a class="dropdown-item" href="tema 2.html">tema 2</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> <b>Recursos Digitales</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="multimedia 1.html">multimedia 1</a></li>
+                            <li><a class="dropdown-item" href="multimedia 2.html">multimedia 2</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="autor.html"> <b>Autor</b></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="centro">
+
+
+        <section class="contenido">
+
+            <article>
+
+                <h4>Estructura de un Documento HTML</h4>
+
+
+                <p> Todas las páginas HTML contienen los mismos elementos básicos: <br>
+
+                    <b> Doctype:</b> Es la primera línea de código que tiene que estar en cualquier documento HTML.
+                    Esta
+                    línea indica al navegador qué especificación de HTML se está utilizando. Suele ser la
+                    siguiente:<br>
+
+                    <b> HTML:</b> El par de etiquetas < html> y < / html> se encuentran al principio y al final de
+                            todo documento HTML y sirve para indicar a
+                            todos las aplicaciones que pueden analizar texto sin formato (no sólamente a los
+                            navegadores)
+                            que esa página utiliza HTML. <br>
+
+
+
+                            <b> Head: </b> Las etiquetas< head> y < / head> delimitan el contenido de la cabecera
+                                    del documento, es decir, el título de la
+                                    página y una información que no aparece en la pantalla. <br>
+
+                                    <b>Title:</b> El par de etiquetas < title> y < / title> rodea el texto del
+                                            título. El título aparece en la barra de título del navegador web
+                                            cuando presenta la página. Normalmente va dentro del elemento head <br>
+
+                                            <b> Meta: </b>
+                                            < meta> y < / meta> permite aportar metainformación al documento, para
+                                                    su mejor identificación e
+                                                    indexación por los motores de búsqueda. <br>
+
+                                                    <b>Body:</b> Las etiquetas < body> y < / body> rodean el
+                                                            contenido visible de la página. También puede llevar
+                                                            incluida información sobre las propiedades de la página,
+                                                            por ejemplo < body bgcolor="#RRGGBB"> define el color de
+                                                                fondo de la página.
+
+
+
+                                                                <h4>Etiquetas HTML más Comunes</h4>
+
+                                                                <img src="img/etiquetas html.webp" alt=" "> <br>
+
+
+                                                                <b>Comentarios: </b>
+                                                                < !--comentarios-->: Para escribir anotaciones que
+                                                                    sirven para ayudar a la comprensión del código.
+                                                                    Lo que se escribe dentro de esta etiqueta es
+                                                                    ignorado por el navegador y no se muestra en la
+                                                                    página.
+
+                                                                    <h4><b>Formato de Textos</b></h4>
+
+                                                                    <B>
+                                                                        < b>...< / b> :
+                                                                    </B> Aplica negrita al texto incluido entre las
+                                                                    etiquetas (es equivalente usar < strong>… < /
+                                                                            strong>) <br>
+
+                                                                            <b>
+                                                                                < i>...< /i>:
+                                                                            </b> Aplica cursiva al texto incluido
+                                                                            entre las etiquetas (es equivalente usar
+                                                                            < em>…< / em>) <br>
+
+                                                                                    <b>
+                                                                                        < u>
+                                                                                            < / u>:
+                                                                                    </b> Aplica subrayado <br>
+                                                                                    <b>
+                                                                                        < font>...< / font>:
+                                                                                    </b> Delimita un texto con un
+                                                                                    formato de fuente determinado
+                                                                                    definido por sus propiedades:
+                                                                                    <br>
+
+                                                                                    <b>
+                                                                                        < font size=”X”>… < /font>:
+                                                                                    </b> Indica el tamaño del texto.
+                                                                                    <br>
+
+                                                                                    <b>
+                                                                                        < font color=” #RRGGBB ”>…
+                                                                                            </font>:
+                                                                                    </b> Define el color del texto,
+                                                                                    donde cada letra RRGGBB es un
+                                                                                    valor hexadecimal (de 0 a F) que
+                                                                                    indica el color. <br>
+
+                                                                                    <b>
+                                                                                        < font face=”arial”>… < / font>
+                                                                                                :
+                                                                                    </b> Determina el tipo de fuente
+                                                                                    de texto, es decir, la
+                                                                                    tipografía. <br>
+
+                                                                                    La etiqueta <b>
+                                                                                        < font>
+                                                                                            </font>
+                                                                                    </b> puede incluir los tres
+                                                                                    parámetros (tamaño, fuente y
+                                                                                    color): < font size=X color=#XXYYZZ
+                                                                                        face=fuente escogida> …… < /
+                                                                                            font> <br>
+
+                                                                                            <b>h1, h2, h3, h4, h5,
+                                                                                                h6:</b> Indican 6
+                                                                                            niveles de formato de
+                                                                                            encabezados, en los que
+                                                                                            < h1>...< / h1>
+                                                                                                    delimitaría el
+                                                                                                    tipo de fuente
+                                                                                                    de mayor tamaño.
+                                                                                                    (Celaya
+                                                                                                    Luna,2014.p.13)
+
+            </article>
+
+
+        </section>
+
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="1500" data-theme="dark"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </main>
+    <footer class="piedepagina">
+        <p> <b>Skype</b> live:.cid.f9e95e44edbfd900 <br>
+            <b>Email:</b> luis037carlos@gmail.com <br>
+            <b>Fecha de actualizacion:</b> septiembre 2022<br>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
